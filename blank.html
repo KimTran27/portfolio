@@ -3,7 +3,7 @@
 <html>
 <head>
 	<!-- Update the title to your name or the name of your business -->
-	<title>Clemo.</title>
+	<title>Kim T. Tran</title>
 	<meta charset="UTF-8">
 	<!-- Make the site responsive-friendly -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +19,7 @@
 
 	<!-- Include the stylesheet for the site's CSS -->
 	<link rel="stylesheet" href="styles/style.css">
+	<link rel="icon" href="images/k-icon.png">
 </head>
 <body>
 
@@ -30,8 +31,8 @@
 	<header class="site-header">
 		<div class="site-header-main">
 			<div class="site-branding">
-				<h1 class="site-title">clemo.</h1>
-				<p class="site-description">Optional tagline</p>
+				<h1 class="site-title">Hello, world.</h1>
+				<p class="site-description">Welcome to my online portfolio!</p>
 			</div>
 			<nav class="site-navigation">
 				<ul>
@@ -52,7 +53,86 @@
 	<!-- Main container holds all the content between the header and footer - can be optionally used for styling -->
 	<main class="site-content">
 
+		<!-- Hero Section - large banner or slideshow -->
+		<ul class="hero">
+			<!-- Add a class to the hero-slide for different colors, style-1 through style-5 -->
+			<!-- Or write your own class to style the slide with a background image or different color -->
+			<!-- With only one hero-slide, this section is a big banner -->
+			<!-- Add more than one hero-slide to create an animated slider -->
+			<!-- TODO: ADD SLIDER CODE -->
+			<li class="hero-slide style-5">
+				<h2>Kim T. Tran</h2>
+				<p>Web Developer </br>To get my Résumé</p>
+				<div class="cta"><a href="resume/ktt.pdf" download class="button dark">download</a></div>
+			</li>
+		</ul>
 
+		<!-- Works section - a masonry-style layout of images with more information on hover -->
+		<!-- Images for this section should be 580px wide - any height -->
+		<div class="work section" id="work">
+			<h2 class="section-title">work</h2>
+			<ul class="works">
+				<!-- To link the work to another page, just wrap all the li content in a link -->
+				<li>
+					<a target="_blank" href="https://www.facebook.com/Narniaphotography/">
+						<img src="images/narnia.jpg" alt="Narnia Photography">
+						<div class="description">
+							<h3>Art</h3>
+							<p>Narnia Photography</p>
+					</div>
+				</li>
+				<li>
+					<a target="_blank" href="http://fishbowling.herokuapp.com/">
+						<img src="images/fb.png" alt="Fishbowl game app">
+						<div class="description">
+							<h3>Game App</h3>
+							<p>FishBowling</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="http://fishbowling.herokuapp.com/">
+						<img src="images/premier.jpg" alt="dry cleaner store">
+						<div class="description">
+							<h3>Business Website</h3>
+							<p>Premier Cleaners & Alterations</p>
+					</div>
+				</li>
+				<li>
+					<a target="_blank" href="https://kimtran27.github.io/2.5-Personal-Website/">
+						<img src="images/turtle.jpg" alt="baby sulcata tortoise">
+						<div class="description">
+							<h3>Blog Site</h3>
+							<p>Hachi the Tortoise</p>
+					</div>
+				</li>
+				<li>
+					<a target="_blank" href="https://robot-manufacturer-shop.herokuapp.com/">
+						<img src="images/robot.jpg" alt="robot image">
+						<div class="description">
+							<h3>Client Project</h3>
+							<p>PSKLMRFI</p>
+					</div>
+				</li>
+			</ul>
+			<p class="cta"><a href="#" class="button dark">learn more</a></p>
+		</div>
+		<!-- Images for this section should be 168px square -->
+		<div class="team section">
+			<h2 class="section-title">About me.</h2>
+			<div class="team-carousel">
+				<ul class="team-members">
+					<!-- To link to another page with more info, just wrap all the li content in a link -->
+					<li>
+						<a href="#">
+							<img src="images/kim.jpg" alt="kim tran profile picture">
+							<h3>Kim T. Tran</h3>
+							<p>Developer & Designer</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	<!-- End of the main content area -->
 	</main>
 
@@ -75,12 +155,10 @@
 					<!-- Social media links -->
 					<!-- Get the markup for new social media networks here: http://fontawesome.io/icons/#brand -->
 					<ul class="social-media">
-						<li><a href="#"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-pinterest-p fa-lg" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-snapchat-ghost fa-lg" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/Tran_Kim27"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/in/kimtran27/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://github.com/KimTran27"><i class="fa fa-github-alt fa-lg" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/kim.tran.56863"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 				<!-- Contact form -->
