@@ -373,6 +373,27 @@ a {
   line-height: 1.6875;
   margin-bottom: 1.6875rem; }
 
+.services blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+
+}
+.services blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
 /* ------------------------------------------- */
 /* Work
 /* ------------------------------------------- */
@@ -398,6 +419,10 @@ a {
   .work .works img {
     display: block; }
   .work .works li {
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside:
+      avoid;
+    break-inside: avoid;
     margin-bottom: 1rem;
     position: relative; }
   .work .works .description {
@@ -446,7 +471,7 @@ a {
 /* Team
 /* ------------------------------------------- */
 .team {
-  background: #F8DB9A;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%), url(../images/alice.jpg);
   color: black;
   text-align: center; }
   .team .team-carousel {
@@ -492,8 +517,8 @@ a {
       .team .team-members {
         display: -webkit-flex;
         display: flex;
-        -webkit-justify-content: space-between;
-        justify-content: space-between; } }
+        -webkit-justify-content: center;
+        justify-content: center; } }
     .team .team-members li {
       margin: 3rem auto;
       width: 14.8125rem; }
