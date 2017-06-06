@@ -376,7 +376,7 @@ a {
 .services p {
   line-height: 1.6875;
   margin-bottom: 1.6875rem; }
-
+/*
 .services blockquote {
   font-family: Georgia, serif;
   font-size: 18px;
@@ -398,6 +398,7 @@ a {
     top: -20px;
     color: #7a7a7a;}
 }
+*/
 
 /* ------------------------------------------- */
 /* Work
