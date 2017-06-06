@@ -373,7 +373,7 @@ a {
   line-height: 1.6875;
   margin-bottom: 1.6875rem; }
 
-.services blockquote {
+/*.services blockquote {
   font-family: Georgia, serif;
   font-size: 18px;
   font-style: italic;
@@ -382,18 +382,18 @@ a {
   padding: 0.25em 40px;
   line-height: 1.45;
   position: relative;
-  color: #383838;
+  color: #383838; }
 
+  .services blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;}*/
 }
-.services blockquote:before {
-  display: block;
-  content: "\201C";
-  font-size: 80px;
-  position: absolute;
-  left: -20px;
-  top: -20px;
-  color: #7a7a7a;
-}
+
 /* ------------------------------------------- */
 /* Work
 /* ------------------------------------------- */
