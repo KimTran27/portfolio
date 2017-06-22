@@ -364,7 +364,6 @@ a {
     font-size: 1.875rem;
     font-weight: 300; }
   .services h3:after {
-    border-bottom: 2px solid black;
     content: '';
     display: block;
     margin: 1.875rem 0;
